@@ -146,3 +146,28 @@ tr:hover td
   background-color: #f5f5f5;
 }
 
+/* Adaptacao para celular */
+
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  img {
+    height: auto;
+  }
+
+  nav li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .albuns img {
+    width: 100%;
+    height: auto;
+  }
+
+  figure {
+    margin: 15px;
+  }
+}
